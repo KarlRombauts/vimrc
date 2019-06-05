@@ -40,6 +40,12 @@ let mapleader = "\<Space>"
 "Map Y to act like D and C, i.e. to yank until EOL, rather than act as yy,
 map Y y$ 
 
+" Window switching
+map <C-H> <C-W>h
+map <C-J> <C-W>j
+map <C-K> <C-W>k
+map <C-L> <C-W>l
+
 " Easy motion mappings
 map <Leader><Leader> <Plug>(easymotion-prefix)
 map  / <Plug>(easymotion-sn)
